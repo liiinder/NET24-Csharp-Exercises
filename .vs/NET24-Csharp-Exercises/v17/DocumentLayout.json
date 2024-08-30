@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87700C1E-7655-4A4C-874A-0F5F0683158E}|Indexering\\Indexering.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\net24-csharp-exercises\\indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87700C1E-7655-4A4C-874A-0F5F0683158E}|Indexering\\Indexering.csproj|solutionrelative:indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E613C5-B7A3-498E-A490-39477A966FBF}|Loopar\\Loopar.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\net24-csharp-exercises\\loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E613C5-B7A3-498E-A490-39477A966FBF}|Loopar\\Loopar.csproj|solutionrelative:loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\net24-csharp-exercises\\variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|solutionrelative:variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "RelativeDocumentMoniker": "Indexering\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "RelativeToolTip": "Indexering\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:54:23.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
+              "RelativeDocumentMoniker": "Loopar\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
+              "RelativeToolTip": "Loopar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0BAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:53:46.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
+              "RelativeDocumentMoniker": "Variabler\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\Net24-Csharp-Exercises\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
+              "RelativeToolTip": "Variabler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:52:15.094Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
