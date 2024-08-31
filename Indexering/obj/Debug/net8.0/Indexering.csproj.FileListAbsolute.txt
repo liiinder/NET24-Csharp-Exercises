@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\bin\Debug\net8.0\Indexering.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\bin\Debug\net8.0\Indexering.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\bin\Debug\net8.0\Indexering.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\bin\Debug\net8.0\Indexering.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\bin\Debug\net8.0\Indexering.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\refint\Indexering.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\Indexering.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Indexering\obj\Debug\net8.0\ref\Indexering.dll

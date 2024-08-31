@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
       "projectName": "Loopar",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
-      "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\NET24-Csharp-Exercises\\Loopar\\obj\\",
+      "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",

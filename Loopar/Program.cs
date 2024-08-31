@@ -86,7 +86,7 @@ static void exercise7()
         {
             Console.Write("X");
         }
-        Console.Write($"\n");
+        Console.Write("\n");
     }
 }
 
@@ -281,6 +281,11 @@ static void exercise15()
 
 // Logiken jag använde för att lösa uppgift 15. stem, sax, påse
 //
-//  00 01 02    lika    vinst   förlust     0   -1  -2
-//  10 11 12    förlust lika    vinst       1    0  -1
-//  20 21 22    vinst   förlust lika        2    1   0
+// en matris för att måla upp alla möjliga utfall. 
+//
+//  0-0 0-1 0-2    lika    vinst   förlust     0   -1  -2
+//  1-0 1-1 1-2    förlust lika    vinst       1    0  -1
+//  2-0 2-1 2-2    vinst   förlust lika        2    1   0
+//
+// Skulle fungera att jämföra om dom är samma för lika, sen "sax" "påse" och leta efter alla 3 vinster och sen else för förlusterna.
+// Men detta sparar en jämförelse då det finns 2 som blir -1 ... Helt onödigt dock.
