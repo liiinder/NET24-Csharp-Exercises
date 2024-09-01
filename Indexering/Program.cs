@@ -200,7 +200,7 @@ static void exercise10()
 {
     Console.Write("Skriv något: ");
     string input = Console.ReadLine();
-    Console.Write("Skriv något: ");
+    Console.Write("Skriv en bokstav: ");
     string input2 = Console.ReadLine();
     char colored = input2[0];
     foreach (char c in input)
