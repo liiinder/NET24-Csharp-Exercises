@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0F976875-836D-494D-B9B1-12CA14FDCFD5}|ClassExercises\\ClassExercises.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\classexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F976875-836D-494D-B9B1-12CA14FDCFD5}|ClassExercises\\ClassExercises.csproj|solutionrelative:classexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|solutionrelative:funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|solutionrelative:indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +30,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
+              "RelativeDocumentMoniker": "Funktioner\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
+              "RelativeToolTip": "Funktioner\\Program.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAYwNIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T12:05:54.765Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -34,40 +60,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\ClassExercises\\Program.cs",
+              "RelativeDocumentMoniker": "ClassExercises\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\ClassExercises\\Program.cs",
+              "RelativeToolTip": "ClassExercises\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T11:07:52.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
               "RelativeDocumentMoniker": "Loopar\\Program.cs",
               "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
               "RelativeToolTip": "Loopar\\Program.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAIwFgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAUwPIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:52:12.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
-              "RelativeDocumentMoniker": "Indexering\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
-              "RelativeToolTip": "Indexering\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:51:20.156Z",
+              "WhenOpened": "2024-08-31T10:52:12.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "RelativeDocumentMoniker": "Indexering\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "RelativeToolTip": "Indexering\\Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAmwHwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T10:51:20.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
               "RelativeDocumentMoniker": "Variabler\\Program.cs",
               "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
               "RelativeToolTip": "Variabler\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAUwAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:52:15.094Z"
+              "WhenOpened": "2024-08-30T21:52:15.094Z",
+              "EditorCaption": ""
             }
           ]
         }

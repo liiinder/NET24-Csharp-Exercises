@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\bin\Debug\net8.0\Funktioner.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\bin\Debug\net8.0\Funktioner.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\bin\Debug\net8.0\Funktioner.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\bin\Debug\net8.0\Funktioner.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\bin\Debug\net8.0\Funktioner.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\refint\Funktioner.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\Funktioner.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Funktioner\obj\Debug\net8.0\ref\Funktioner.dll

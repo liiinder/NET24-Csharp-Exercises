@@ -4,7 +4,7 @@
 //exercise3();
 //exercise4();
 //exercise5();
-//exercise6();
+//exercise6();5
 //exercise7();
 //exercise8();
 //exercise9();
@@ -13,8 +13,10 @@
 //exercise12();
 //exercise13();
 //exercise14();
-//exercise14ex2();
-exercise15();
+exercise14ex2();
+//exercise15();
+
+// TODO: Change name on all the functions / methods to PascalCase
 
 // 1. Skriv talen 20 till 30
 static void exercise1()
@@ -219,10 +221,10 @@ static void exercise14()
 // 14. Extrauppgift 2
 static void exercise14ex2()
 {
-    int answer = new Random().Next(1, 101);// 70
-    int guess = new Random().Next(1, 101); // 50
-    int high = 101;
-    int low = 0;
+    int high = 300;
+    int low = 1;
+    int answer = new Random().Next(low, high + 1);
+    int guess = high / 2;
     int guesses = 0;
     Console.WriteLine($"Computer guessed on {guess}");
     Console.WriteLine("-----------------------------------");

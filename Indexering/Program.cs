@@ -11,7 +11,9 @@
 //exercise9();
 //exercise10();
 //exercise11();
-exercise12();
+//exercise12();
+
+// TODO: Change name on all the functions / methods to PascalCase
 
 //# Övningsuppgifter med indexering av strängar och arrayer
 
@@ -241,7 +243,7 @@ static void exercise12()
     {
         if (c == bokstav) red = !red;
         if (c == bokstav && red) Console.ForegroundColor = ConsoleColor.Red;
-            Console.Write(c);        
+        Console.Write(c);
         if (c == bokstav && !red) Console.ForegroundColor = ConsoleColor.Gray;
     }
     Console.ForegroundColor = ConsoleColor.Gray;

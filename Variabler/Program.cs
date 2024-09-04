@@ -7,6 +7,8 @@
 //exercise6();
 //exercise7();
 
+// TODO: Change name on all the functions / methods to PascalCase
+
 // 1. Hälsa på användaren
 static void exercise1()
 {

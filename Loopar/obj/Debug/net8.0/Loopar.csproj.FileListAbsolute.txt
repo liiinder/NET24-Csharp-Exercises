@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\bin\Debug\net8.0\Loopar.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\bin\Debug\net8.0\Loopar.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\bin\Debug\net8.0\Loopar.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\bin\Debug\net8.0\Loopar.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\bin\Debug\net8.0\Loopar.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\refint\Loopar.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\Loopar.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Loopar\obj\Debug\net8.0\ref\Loopar.dll

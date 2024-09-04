@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\bin\Debug\net8.0\ClassExercises.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\bin\Debug\net8.0\ClassExercises.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\bin\Debug\net8.0\ClassExercises.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\bin\Debug\net8.0\ClassExercises.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\bin\Debug\net8.0\ClassExercises.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\refint\ClassExercises.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ClassExercises.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\ClassExercises\obj\Debug\net8.0\ref\ClassExercises.dll
