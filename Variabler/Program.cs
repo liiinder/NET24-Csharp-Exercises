@@ -100,6 +100,9 @@ static void exercise7()
         {
             summa += number;
             ++antal;
+
+            // kolakjdlkajsdlkjasljd ajlksd j
+            // test test test 
         }
         else break;
     }
