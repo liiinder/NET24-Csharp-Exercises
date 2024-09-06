@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Labb1-Övningar/1.0.0": {
+        "runtime": {
+          "Labb1-Övningar.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Labb1-Övningar/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

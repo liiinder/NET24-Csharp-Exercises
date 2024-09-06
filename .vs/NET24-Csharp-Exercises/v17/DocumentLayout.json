@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\",
+  "WorkspaceRootPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|solutionrelative:variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7D91B36-FA6D-4DDA-AA58-34DF9533F44B}|ProjectEuler\\ProjectEuler.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\projecteuler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7D91B36-FA6D-4DDA-AA58-34DF9533F44B}|ProjectEuler\\ProjectEuler.csproj|solutionrelative:projecteuler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|solutionrelative:indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|solutionrelative:loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|solutionrelative:funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F976875-836D-494D-B9B1-12CA14FDCFD5}|ClassExercises\\ClassExercises.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\classexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F976875-836D-494D-B9B1-12CA14FDCFD5}|ClassExercises\\ClassExercises.csproj|solutionrelative:classexercises\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|solutionrelative:loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{818B439E-97A0-44C6-8CBF-3D0124386E75}|Labb1-\u00D6vningar\\Labb1-\u00D6vningar.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\labb1-\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{818B439E-97A0-44C6-8CBF-3D0124386E75}|Labb1-\u00D6vningar\\Labb1-\u00D6vningar.csproj|solutionrelative:labb1-\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|solutionrelative:indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|solutionrelative:variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
               "RelativeDocumentMoniker": "Funktioner\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
               "RelativeToolTip": "Funktioner\\Program.cs",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAYwNIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwBAAAAAAAAAAAswBYBAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T12:05:54.765Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\ProjectEuler\\Program.cs",
+              "RelativeDocumentMoniker": "ProjectEuler\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\ProjectEuler\\Program.cs",
+              "RelativeToolTip": "ProjectEuler\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:31:46.328Z",
               "EditorCaption": ""
             },
             {
@@ -60,55 +77,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\ClassExercises\\Program.cs",
-              "RelativeDocumentMoniker": "ClassExercises\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\ClassExercises\\Program.cs",
-              "RelativeToolTip": "ClassExercises\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Labb1-\u00D6vningar\\Program.cs",
+              "RelativeDocumentMoniker": "Labb1-\u00D6vningar\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Labb1-\u00D6vningar\\Program.cs",
+              "RelativeToolTip": "Labb1-\u00D6vningar\\Program.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAADwvyUBAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T11:07:52.712Z",
+              "WhenOpened": "2024-09-05T15:30:07.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
               "RelativeDocumentMoniker": "Loopar\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
               "RelativeToolTip": "Loopar\\Program.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAUwPIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAADwv/IAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T10:52:12.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
               "RelativeDocumentMoniker": "Indexering\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
               "RelativeToolTip": "Indexering\\Program.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAmwHwAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwFwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:51:20.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T10:51:20.156Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
               "RelativeDocumentMoniker": "Variabler\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
+              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
               "RelativeToolTip": "Variabler\\Program.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwAkAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:52:15.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T21:52:15.094Z"
             }
           ]
         }

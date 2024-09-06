@@ -1,0 +1,15 @@
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\bin\Debug\net8.0\Labb1-Övningar.exe
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\bin\Debug\net8.0\Labb1-Övningar.deps.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\bin\Debug\net8.0\Labb1-Övningar.runtimeconfig.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\bin\Debug\net8.0\Labb1-Övningar.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\bin\Debug\net8.0\Labb1-Övningar.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.AssemblyInfoInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.AssemblyInfo.cs
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.csproj.CoreCompileInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.sourcelink.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\refint\Labb1-Övningar.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\Labb1-Övningar.genruntimeconfig.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\Labb1-Övningar\obj\Debug\net8.0\ref\Labb1-Övningar.dll
