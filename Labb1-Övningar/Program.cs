@@ -18,8 +18,8 @@ string hello = "Hello World!";
 //Exercise11(wood);
 //Exercise12(wood);
 //Exercise13();
-//Exercise14();
-Exercise15();
+Exercise14();
+//Exercise15();
 
 // 1. Bokstav för bokstav - fram till space
 // Utgå från strängen (skapa en variabel med) "Hello World!",
@@ -243,6 +243,7 @@ static void Exercise13()
             if (j > i + 5) Console.ResetColor();
             Console.Write(input[j]);
         }
+        Console.WriteLine();
     }
 }
 
@@ -274,6 +275,10 @@ static void Exercise14()
 // På första raden börjar den skriva med röd färg på första bokstaven och fram tills den hittar samma bokstav igen.
 // På andra raden börjar den skriva med röd färg på andra bokstaven och fram tills den hittar samma bokstav igen.
 // På tredje raden börjar den skriva med röd text på tredje bokstaven och fram tills den hittar samma igen... etc. Om man t.ex matar in “ajdfhvajhdfd” blir det då:
+
+//ajdfhvajhdfd
+//hhfgijff
+//fjpdpog
 static void Exercise15()
 {
     Console.Write("Mata in en sträng: ");
@@ -287,6 +292,8 @@ static void Exercise15()
             Console.Write(input[j]);
             if (input[i] == input[j] && j != i) Console.ResetColor();
         }
+        Console.WriteLine();
+        Console.ResetColor();
     }
 }
 
