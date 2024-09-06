@@ -257,11 +257,11 @@ static void exercise15()
     do
     {
         Console.WriteLine("-----------------------------------------------");
-        int answer = new Random().Next(0, 3);
+        int computer = new Random().Next(0, 3);
         Console.Write("Välj sten, sax eller påse: ");
         string choice = Console.ReadLine();
         player = Array.IndexOf(options, choice);
-        int result = (player - answer);
+        int result = (player - computer);
         if (player == -1)
         {
             Console.WriteLine("Tack för att du spelade!");
@@ -272,11 +272,11 @@ static void exercise15()
         }
         else if (result == -1 || result == 2)
         {
-            Console.WriteLine($"Du vann! Du valde {options[player]} medans datorn tog {options[answer]}");
+            Console.WriteLine($"Du vann! Du valde {options[player]} medans datorn tog {options[computer]}");
         }
         else // else if (result == 1 || result == -2) eller om man kör det som en else if.
         {
-            Console.WriteLine($"Du förlorade! Datorn valde {options[answer]} och du tog {options[player]}");
+            Console.WriteLine($"Du förlorade! Datorn valde {options[computer]} och du tog {options[player]}");
         }
     } while (player != -1);
 }
@@ -291,3 +291,8 @@ static void exercise15()
 //
 // Skulle fungera att jämföra om dom är samma för lika, sen "sax" "påse" och leta efter alla 3 vinster och sen else för förlusterna.
 // Men detta sparar en jämförelse då det finns 2 som blir -1 ... Helt onödigt dock.
+// if (player == computer) "Det blev lika"
+// else if (player == "sax" && "computer" == "påse")
+// || (player == "påse" && "computer" == "sten")
+// || (player == "sten" && "computer" == "sax") "Du vann"
+// else "Du förlorade"

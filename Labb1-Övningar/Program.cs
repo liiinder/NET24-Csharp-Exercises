@@ -1,14 +1,16 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
 
 string wood = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?";
 string hello = "Hello World!";
+
 //Exercise1(hello);
 //Exercise2();
 //Exercise3();
 //Exercise4(hello);
 //Exercise5(hello);
 //Exercise6(wood, "oo");
-Exercise6regex(wood, "oo");
+//Exercise6regex(wood, "oo");
 //Exercise7(wood, "chuck");
 //Exercise8regex(wood);
 //Exercise9(hello);
@@ -17,7 +19,7 @@ Exercise6regex(wood, "oo");
 //Exercise12(wood);
 //Exercise13();
 //Exercise14();
-//Exercise15();
+Exercise15();
 
 // 1. Bokstav för bokstav - fram till space
 // Utgå från strängen (skapa en variabel med) "Hello World!",
@@ -25,7 +27,6 @@ Exercise6regex(wood, "oo");
 static void Exercise1(string hello)
 {
     static string lettersUntilSpace(string input) => input.Split(' ')[0];
-
     Console.WriteLine(lettersUntilSpace(hello));
 }
 
@@ -242,8 +243,6 @@ static void Exercise13()
             if (j > i + 5) Console.ResetColor();
             Console.Write(input[j]);
         }
-        Console.WriteLine();
-        Console.ResetColor();
     }
 }
 
@@ -258,15 +257,15 @@ static void Exercise13()
 //fjpdpog
 static void Exercise14()
 {
-    Console.WriteLine("Mata in en sträng: ");
+    Console.Write("Mata in en sträng: ");
     string input = Console.ReadLine();
+
     Console.ForegroundColor = ConsoleColor.Red;
     for (int i = 0; i < input.Length; i++)
     {
         Console.Write(input[i]);
-        if (input[i] == input[0] && i != 0) Console.ResetColor(); // byt plats på if-satsen och utskriften om andra träffen ska vara inkluderad i den röda texten eller inte.
+        if (input[i] == input[0] && i != 0) Console.ResetColor();
     }
-    Console.ResetColor();
 }
 
 // 15.Rödmarkerade bokstäver 3
@@ -277,7 +276,9 @@ static void Exercise14()
 // På tredje raden börjar den skriva med röd text på tredje bokstaven och fram tills den hittar samma igen... etc. Om man t.ex matar in “ajdfhvajhdfd” blir det då:
 static void Exercise15()
 {
-    string input = "ajdfhvajhdfd";
+    Console.Write("Mata in en sträng: ");
+    string input = Console.ReadLine();
+
     for (int i = 0; i < input.Length; i++)
     {
         for (int j = 0; j < input.Length; j++)
@@ -286,9 +287,8 @@ static void Exercise15()
             Console.Write(input[j]);
             if (input[i] == input[j] && j != i) Console.ResetColor();
         }
-        Console.WriteLine();
-        Console.ResetColor();
     }
 }
 
 Console.WriteLine();
+Console.ResetColor();
