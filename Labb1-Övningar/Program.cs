@@ -1,8 +1,8 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
-string wood = "How much wood would a woodchuck chuck if a woodchuck could chuck wood?";
+string wood = "chuckchuckHow much wood would a woodchuck chuck if a woodchuck could chuck wood?chuckchuck";
 string hello = "Hello World!";
+string abc = "abcdefghijklmnopqrstuvwxyz";
 
 //Exercise1(hello);
 //Exercise2();
@@ -12,14 +12,17 @@ string hello = "Hello World!";
 //Exercise6(wood, "oo");
 //Exercise6regex(wood, "oo");
 //Exercise7(wood, "chuck");
+//Exercise8(wood);
 //Exercise8regex(wood);
 //Exercise9(hello);
 //Exercise10(wood);
 //Exercise11(wood);
 //Exercise12(wood);
-//Exercise13();
-Exercise14();
+//Exercise13(abc);
+//Exercise13split(abc, 7 );
+//Exercise14();
 //Exercise15();
+Labb1Short();
 
 // 1. Bokstav för bokstav - fram till space
 // Utgå från strängen (skapa en variabel med) "Hello World!",
@@ -130,7 +133,7 @@ static void Exercise7(string input, string subString)
 {
     for (int i = 0; i < input.Length; i++)
     {
-        if (i <= input.Length - subString.Length && input.Substring(i, subString.Length) == subString)
+        if (i + subString.Length < input.Length && input.Substring(i, subString.Length) == subString)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.Write(subString);
@@ -144,6 +147,34 @@ static void Exercise7(string input, string subString)
 // 8.Bokstav för bokstav - grön substring 3
 // Samma som uppgift 6 igen, men denna gången kan användaren mata in den kortare strängen, 
 // alltså valfri text som ska sökas (färgas grön) i den längre texten.
+static void Exercise8(string input)
+{
+    Console.ResetColor();
+    Console.WriteLine(input);
+
+    string subString = "chuck";
+    string[] subStrings = input.Split(subString);
+    for (int i = 0; i < subStrings.Length; i++)
+    {
+        string part = subStrings[i];
+        if (part == "")
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(subString);
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.Write(part);
+        }
+        if (i < subStrings.Length - 1 && part != "" && subStrings[i + 1] != "")
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(subString);
+        }
+    }
+}
+
 static void Exercise8regex(string input)
 {
     Console.WriteLine(input);
@@ -231,19 +262,34 @@ static void Exercise12(string input)
 // Hela strängen skrivs ut på varje rad. På första raden är de 5 första tecknen röda.
 // På nästa rad är “bcdef” röda, sedan “cedfg” osv..
 // alltså alltid 5 tecken, men de flyttas ett steg åt höger för varje rad, tills sista raden har “vwxyz” rödfärgad
-static void Exercise13()
+static void Exercise13(string input)
 {
-    string input = "abcdefghijklmnopqrstuvwxyz";
     int length = 5;
-    for (int i = 0; i < input.Length - length; i++)
+    for (int i = 0; i <= input.Length - length; i++)
     {
         for (int j = 0; j < input.Length; j++)
         {
             if (j == i) Console.ForegroundColor = ConsoleColor.Red;
-            if (j > i + 5) Console.ResetColor();
+            if (j == i + length) Console.ResetColor();
             Console.Write(input[j]);
         }
         Console.WriteLine();
+    }
+}
+
+static void Exercise13split(string input, int length = 5)
+{
+    for (int i = 0; i <= input.Length - length; i++)
+    {
+        string firstPart = input.Substring(0, i);
+        string secondPart = input.Substring(i, length);
+        string thirdPart = input.Substring(i + length) + "\n";
+
+        Console.Write(firstPart);
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write(secondPart);
+        Console.ResetColor();
+        Console.Write(thirdPart);
     }
 }
 
@@ -299,3 +345,26 @@ static void Exercise15()
 
 Console.WriteLine();
 Console.ResetColor();
+
+// Labb 1 version oläsligt...
+
+static void Labb1Short()
+{
+    // 29535123p48723487597645723645
+Console.Write("Skriv in en text: ");
+string input = Console.ReadLine();
+ulong result = 0;
+for (int i = 0; i < input.Length; i++)
+{
+    int seqLength = input.Substring(i + 1).IndexOf(input[i]) + 2;
+    if (seqLength == 1) continue;
+    if (!ulong.TryParse(input.Substring(i, seqLength), out ulong currSum)) continue;
+    result += currSum;
+    Console.Write("\n" + input.Substring(0, i));
+    Console.ForegroundColor = ConsoleColor.Red;
+    Console.Write(input.Substring(i, seqLength));
+    Console.ResetColor();
+    Console.Write(input.Substring(i + seqLength));
+}
+Console.WriteLine($"\n\nTotal = {result}");
+}

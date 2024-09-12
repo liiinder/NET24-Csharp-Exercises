@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Loopar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99752a2fee933357a1ae9982a237c158eb0893cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+986d91b06bd5f82cfc1cd95b6964a9fdc694ade8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Loopar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Loopar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

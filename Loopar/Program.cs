@@ -1,25 +1,25 @@
 ﻿// Övningar - Loopar
-//exercise1();
-//exercise2();
-//exercise3();
-//exercise4();
-//exercise5();
-//exercise6();5
-//exercise7();
-//exercise8();
-//exercise9();
-//exercise10();
-//exercise11();
-//exercise12();
-//exercise13();
-//exercise14();
-exercise14ex2();
-//exercise15();
+//Exercise1();
+//Exercise2();
+//Exercise3();
+//Exercise4();
+//Exercise5();
+//Exercise6();5
+//Exercise7();
+//Exercise8();
+//Exercise9();
+//Exercise10();
+//Exercise11();
+//Exercise12();
+//Exercise13();
+//Exercise14();
+Exercise14ex2();
+//Exercise15();
 
 // TODO: Change name on all the functions / methods to PascalCase
 
 // 1. Skriv talen 20 till 30
-static void exercise1()
+static void Exercise1()
 {
     for (int i = 20; i <= 30; i++)
     {
@@ -28,7 +28,7 @@ static void exercise1()
 }
 
 // 2. Jämna tal
-static void exercise2()
+static void Exercise2()
 {
     for (int i = 0; i <= 30; i++)
     {
@@ -37,7 +37,7 @@ static void exercise2()
 }
 
 // 3. Var tredje "Hej"
-static void exercise3()
+static void Exercise3()
 {
     for (int i = 0; i <= 30; i++)
     {
@@ -47,7 +47,7 @@ static void exercise3()
 }
 
 // 4. Gångertabell
-static void exercise4()
+static void Exercise4()
 {
     Console.Write("Skriv in ett tal: ");
     double tal;
@@ -61,7 +61,7 @@ static void exercise4()
 }
 
 // 5. Summa
-static void exercise5()
+static void Exercise5()
 {
     int summa = 0;
     int antal = 1000;
@@ -70,13 +70,13 @@ static void exercise5()
 }
 
 // 6. Riskorn på shackbräde
-static void exercise6()
+static void Exercise6()
 {
     for (int i = 0; i < 64; i++) Console.WriteLine($"Ruta {i + 1}: {Math.Pow(2, i)}");
 }
 
 // 7. Fylld box
-static void exercise7()
+static void Exercise7()
 {
     Console.Write("Mata in höjd: ");
     int height = Int32.Parse(Console.ReadLine());
@@ -93,7 +93,7 @@ static void exercise7()
 }
 
 // 8. Randig box
-static void exercise8()
+static void Exercise8()
 {
     Console.Write("Mata in höjd: ");
     int height2 = Int32.Parse(Console.ReadLine());
@@ -111,7 +111,7 @@ static void exercise8()
 }
 
 // 9. Rutig box
-static void exercise9()
+static void Exercise9()
 {
     Console.Write("Mata in höjd: ");
     int height3 = Int32.Parse(Console.ReadLine());
@@ -130,7 +130,7 @@ static void exercise9()
 }
 
 // 10. Ihålig box
-static void exercise10()
+static void Exercise10()
 {
     Console.Write("Mata in höjd: ");
     int height = Int32.Parse(Console.ReadLine());
@@ -149,7 +149,7 @@ static void exercise10()
 }
 
 // 11. Sifferpyramid
-static void exercise11()
+static void Exercise11()
 {
     for (int i = 1; i <= 9; i++)
     {
@@ -162,7 +162,7 @@ static void exercise11()
 }
 
 // 12.Nio Sifferpyramider
-static void exercise12()
+static void Exercise12()
 {
     for (int i = 1; i <= 9; i++)
     {
@@ -180,7 +180,7 @@ static void exercise12()
 }
 
 // 13. Primtal
-static void exercise13()
+static void Exercise13()
 {
     int[] prime = new int[20]; // En array som sparar alla primtal, längden bestämmer hur många vi vill hitta.
     int siffra = 2; // Nummret som vi undersöker, iom att uppgiften säger större än 1 så börjar vi på 2.
@@ -203,7 +203,7 @@ static void exercise13()
 }
 
 // 14. Spel - Gissa tal
-static void exercise14()
+static void Exercise14()
 {
     int answer = new Random().Next(1, 101);
     Console.Write("Gissa ett tal mellan 1-100: ");
@@ -219,7 +219,7 @@ static void exercise14()
 }
 
 // 14. Extrauppgift 2
-static void exercise14ex2()
+static void Exercise14ex2()
 {
     int high = 300;
     int low = 1;
@@ -249,7 +249,7 @@ static void exercise14ex2()
 }
 
 // 15. Sten, sax, påse
-static void exercise15()
+static void Exercise15()
 {
     int player;
     string[] options = { "sten", "sax", "påse" };

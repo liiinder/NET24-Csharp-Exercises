@@ -8,7 +8,6 @@
 //Exercise8();
 //Exercise9();
 
-
 //# Övningsuppgifter med funktioner
 
 //## 1. Slå ihop för- och efternamn - skriv ut

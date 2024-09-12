@@ -1,16 +1,14 @@
 ﻿// Uppgifter från https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Variabler.md
-//exercise1();
-//exercise2();
-//exercise3();
-//exercise4();
-//exercise5();
-//exercise6();
-//exercise7();
-
-// TODO: Change name on all the functions / methods to PascalCase
+//Exercise1();
+//Exercise2();
+//Exercise3();
+//Exercise4();
+//Exercise5();
+//Exercise6();
+//Exercise7();
 
 // 1. Hälsa på användaren
-static void exercise1()
+static void Exercise1()
 {
     Console.Write("Skriv ditt namn: ");
     String name = Console.ReadLine();
@@ -18,7 +16,7 @@ static void exercise1()
 }
 
 // 2. Multiplicera två tal
-static void exercise2()
+static void Exercise2()
 {
     Console.Write("Skriv in första talet: ");
     int firstNumber = Int32.Parse(Console.ReadLine());
@@ -28,7 +26,7 @@ static void exercise2()
 }
 
 // 3. Verifiera lösenord
-static void exercise3()
+static void Exercise3()
 {
     string password = "qwerty";
     Console.Write("Lösenord: ");
@@ -44,7 +42,7 @@ static void exercise3()
 }
 
 // 4. Jämför tal
-static void exercise4()
+static void Exercise4()
 {
     Console.Write("Skriv ett tal: ");
     int tal = Int32.Parse(Console.ReadLine());
@@ -63,7 +61,7 @@ static void exercise4()
 }
 
 // 5. Dubblera och halvera tal
-static void exercise5()
+static void Exercise5()
 {
     Console.Write("Skriv in ett tal: ");
     double tal2 = Double.Parse(Console.ReadLine());
@@ -72,7 +70,7 @@ static void exercise5()
 }
 
 // 6. Miniräknare
-static void exercise6()
+static void Exercise6()
 {
     Console.Write("Första talet: ");
     double firstNumber2 = Double.Parse(Console.ReadLine());
@@ -88,7 +86,7 @@ static void exercise6()
 }
 
 // 7. Summa och medelvärde
-static void exercise7()
+static void Exercise7()
 {
     double number;
     double summa = 0;

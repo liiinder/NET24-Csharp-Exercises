@@ -1,24 +1,25 @@
-﻿//exercise1();
-//exercise2();
-//exercise2extra();
-//exercise3
-//exercise4();
-//exercise4extra();
-//exercise5();
-//exercise6();
-//exercise7();
-//exercise8();
-//exercise9();
-//exercise10();
-//exercise11();
-//exercise12();
+﻿//Exercise1();
+//Exercise2();
+//Exercise2extra();
+//Exercise3
+//Exercise4();
+//Exercise4extra();
+//Exercise5();
+//Exercise5loop();
+//Exercise6();
+//Exercise7();
+//Exercise8();
+//Exercise9();
+//Exercise10();
+//Exercise11();
+//Exercise12();
 
 // TODO: Change name on all the functions / methods to PascalCase
 
 //# Övningsuppgifter med indexering av strängar och arrayer
 
 //## 1. En bokstav på varje rad
-static void exercise1()
+static void Exercise1()
 {
     Console.Write("Skriv något: ");
     string input = Console.ReadLine();
@@ -27,7 +28,7 @@ static void exercise1()
 }
 
 //## 2. Siffror till text
-static void exercise2()
+static void Exercise2()
 {
     Console.Write("Skriv in ett heltal (0 - 9): ");
     string[] nummer = { "noll", "ett", "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio" };
@@ -36,7 +37,7 @@ static void exercise2()
 }
 
 //***Extra utmaning:****Användaren kan mata in en sträng med fritt antal siffror, om man skriver in t.ex 432 så svarar programmet: "fyra - tre - två".*
-static void exercise2extra()
+static void Exercise2extra()
 {
     Console.Write("Skriv in ett heltal (0 - 9): ");
     string[] nummer = { "noll", "ett", "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio" };
@@ -50,7 +51,7 @@ static void exercise2extra()
 }
 
 //## 3. Baklänges
-static void exercise3()
+static void Exercise3()
 {
     Console.Write("Skriv något: ");
     string input = Console.ReadLine();
@@ -61,7 +62,7 @@ static void exercise3()
 }
 
 //## 4. Dölj vokaler
-static void exercise4()
+static void Exercise4()
 {
     string vowels = "aAeEiIoOuUyYåÅäÄöÖ";
     Console.Write("Skriv en text: ");
@@ -74,7 +75,7 @@ static void exercise4()
 }
 
 //***Extra utmaning:****Skriv ut texten översatt till [rövarspråket] (https://sv.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket).*
-static void exercise4extra()
+static void Exercise4extra()
 {
     string vowels = "aAeEiIoOuUyYåÅäÄöÖ";
     Console.Write("Skriv en text: ");
@@ -95,13 +96,15 @@ static void exercise4extra()
 }
 
 //## 5. Palindrom
-static void exercise5()
+static void Exercise5()
 {
     Console.Write("Skriv ett ord: ");
     string input = Console.ReadLine();
+
     char[] reverse = input.ToCharArray();
     Array.Reverse(reverse);
-    string reverseString = new string(reverse);
+    string reverseString = reverse.ToString();
+
     if (reverseString.ToLower() == input.ToLower())
     {
         Console.WriteLine($"{input} är ett palindrom!");
@@ -112,8 +115,28 @@ static void exercise5()
     }
 }
 
+static void Exercise5loop()
+{
+    Console.Write("Skriv ett ord: ");
+    string input = Console.ReadLine();
+
+    int j = input.Length;
+    bool palindrome = true;
+    for (int i = 0; i < input.Length / 2; i++)
+    {
+        j--;
+        if (input[i] != input[j])
+        {
+            palindrome = false;
+            break;
+        }
+    }
+    if (palindrome) Console.WriteLine($"{input} är ett palindrom");
+    else Console.WriteLine($"{input} är inget palindrom");
+}
+
 //## 6. Miniräknare
-static void exercise6()
+static void Exercise6()
 {
     Console.Write("Vad vill du räkna ut? ");
     string input = Console.ReadLine();
@@ -146,7 +169,7 @@ static void exercise6()
 // Inte det snyggaste men det fungerar iaf ...
 
 //## 7. Omvänd ordning
-static void exercise7()
+static void Exercise7()
 {
     String[] inputs = new string[7];
     Console.WriteLine("Skriv sju ord:");
@@ -164,7 +187,7 @@ static void exercise7()
 // Skapa ett program som ber användaren att skriva in ett ord. Sedan ett till, och ett till i all evighet.
 // Varje gång man skrivit in ett ord så ska programmet skriva ut det ord man skrev 10 inmatningar tidigare.
 // Men om man inte skrivit in 10 ord än så kan den istället skriva just det: "Du har inte skrivit in 10 ord än."
-static void exercise8()
+static void Exercise8()
 {
     List<string> ordlista = new List<string>();
     Console.WriteLine("Nu ska vi bygga en ordlista! (avsluta med ctrl + c");
@@ -184,7 +207,7 @@ static void exercise8()
 }
 
 //## 9. Bokstavspyramid  (Samma uppgift som Loopar "11. Sifferpyramid"?
-static void exercise9()
+static void Exercise9()
 {
     string hello = "Hello World";
     for (int i = 0; i < hello.Length; i++)
@@ -198,7 +221,7 @@ static void exercise9()
 }
 
 //## 10. Färgade bokstäver
-static void exercise10()
+static void Exercise10()
 {
     Console.Write("Skriv något: ");
     string input = Console.ReadLine();
@@ -215,7 +238,7 @@ static void exercise10()
 }
 
 //## 11. Start & Stop
-static void exercise11()
+static void Exercise11()
 {
     Console.Write("Mata in en text: ");
     string text = Console.ReadLine();
@@ -232,7 +255,7 @@ static void exercise11()
 }
 
 //## 12. Växla färg
-static void exercise12()
+static void Exercise12()
 {
     Console.Write("Mata in en text: ");
     string text = Console.ReadLine();
