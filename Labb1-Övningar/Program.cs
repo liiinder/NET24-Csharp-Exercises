@@ -343,28 +343,27 @@ static void Exercise15()
     }
 }
 
-Console.WriteLine();
-Console.ResetColor();
-
 // Labb 1 version oläsligt...
-
 static void Labb1Short()
 {
     // 29535123p48723487597645723645
-Console.Write("Skriv in en text: ");
-string input = Console.ReadLine();
-ulong result = 0;
-for (int i = 0; i < input.Length; i++)
-{
-    int seqLength = input.Substring(i + 1).IndexOf(input[i]) + 2;
-    if (seqLength == 1) continue;
-    if (!ulong.TryParse(input.Substring(i, seqLength), out ulong currSum)) continue;
-    result += currSum;
-    Console.Write("\n" + input.Substring(0, i));
-    Console.ForegroundColor = ConsoleColor.Red;
-    Console.Write(input.Substring(i, seqLength));
-    Console.ResetColor();
-    Console.Write(input.Substring(i + seqLength));
+    Console.Write("Skriv in en text: ");
+    string input = Console.ReadLine();
+    ulong result = 0;
+    for (int i = 0; i < input.Length; i++)
+    {
+        int seqLength = input.Substring(i + 1).IndexOf(input[i]) + 2;
+        if (seqLength == 1) continue;
+        if (!ulong.TryParse(input.Substring(i, seqLength), out ulong currSum)) continue;
+        result += currSum;
+        Console.Write("\n" + input.Substring(0, i));
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.Write(input.Substring(i, seqLength));
+        Console.ResetColor();
+        Console.Write(input.Substring(i + seqLength));
+    }
+    Console.WriteLine($"\n\nTotal = {result}");
 }
-Console.WriteLine($"\n\nTotal = {result}");
-}
+
+Console.WriteLine();
+Console.ResetColor();
