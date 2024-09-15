@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Indexering")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb98a178621be23a68e9468de158f924fba5cb8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aec4d2f9363f4d8e89b7d8268f62f11d735e17d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Indexering")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Indexering")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

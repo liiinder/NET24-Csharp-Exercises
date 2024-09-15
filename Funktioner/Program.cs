@@ -7,15 +7,23 @@
 //Exercise7();
 //Exercise8();
 //Exercise9();
+//Exercise10();
+//Exercise11();
+//Exercise12();
+Exercise12extra();
 
 //# Övningsuppgifter med funktioner
 
-//## 1. Slå ihop för- och efternamn - skriv ut
-//Skriv en funktion som tar två parametrar: firstName och lastName. Funktionen ska skriva ut hela namnet på skärmen. Testa genom att anropa funktionen med ditt namn.
-using System.Runtime.ExceptionServices;
 
-static void Exercise1()
+//## 1. Slå ihop för- och efternamn
+static void Exercise1() 
 {
+    //Skriv en funktion som tar två parametrar: firstName och lastName. Funktionen ska skriva ut hela namnet på skärmen. Testa genom att anropa funktionen med ditt namn.
+    
+    //**Exempel
+    //PrintName("Fredrik", "Johansson");
+    //```
+    //*Skriver ut: *Fredrik Johansson
     static void NameConcat(string firstName, string lastName) => Console.WriteLine($"{firstName} {lastName}");
 
     NameConcat("Kristoffer", "Linder");
@@ -23,15 +31,10 @@ static void Exercise1()
     NameConcat("Martin", "Andersson");
 }
 
-//**Exempel
-//PrintName("Fredrik", "Johansson");
-//```
-//*Skriver ut: *Fredrik Johansson
-
 //## 2. Slå ihop för- och efternamn - returnera
-//Skriv om funktionen ovan så att den istället för att skriva ut namnet returnerar en string med hela namnet. Anropa funktionen och skriv ut returvärdet.
 static void Exercise2()
 {
+    //Skriv om funktionen ovan så att den istället för att skriva ut namnet returnerar en string med hela namnet. Anropa funktionen och skriv ut returvärdet.
     static string NameConcat(string firstName, string lastName) => $"{firstName} {lastName}";
 
     string namn1 = NameConcat("Kristoffer", "Linder");
@@ -39,20 +42,19 @@ static void Exercise2()
     Console.WriteLine(namn1);
 }
 
-
 //## 3. Kolla om stängen är längre än ett givet antal tecken.
-//Skriv en funktion som tar in en sträng och ett heltal. Om längden på strängen är större än heltalet returnera true, annars false.
 static void Exercise3()
 {
+    //Skriv en funktion som tar in en sträng och ett heltal. Om längden på strängen är större än heltalet returnera true, annars false.
     static bool LengthCheck(string input, int length) => (input.Length > length);
 
     Console.WriteLine($"Är \"Kristoffer\" längre än 5 tecken? {LengthCheck("Kristoffer", 5)}");
 }
 
 //## 4. Omvandla Celsius till Fahrenheit
-//Skriv en funktion som översätter ett värde från Celsius till Fahrenheit. Både in-parameter och returvärde ska vara av datatyp double.
 static void Exercise4()
 {
+    //Skriv en funktion som översätter ett värde från Celsius till Fahrenheit. Både in-parameter och returvärde ska vara av datatyp double.
     static double CelciusToFahrenheit(double celcius) => (celcius * 1.8) + 32;
 
     Console.WriteLine($"20 celcius är {CelciusToFahrenheit(20)} fahrenheit");
@@ -61,10 +63,9 @@ static void Exercise4()
 }
 
 //## 5. Lägg in bindesträck mellan tecken i en sträng
-
-//Skriv en funktion som tar in en sträng och returnerar en sträng med ett bindestreck mellan varje tecken. T.ex om man skickar in “Fredrik” , så returnerar den “F-r-e-d-r-i-k”
 static void Exercise5()
 {
+    //Skriv en funktion som tar in en sträng och returnerar en sträng med ett bindestreck mellan varje tecken. T.ex om man skickar in “Fredrik” , så returnerar den “F-r-e-d-r-i-k”
     static string HyphenAdder(string input)
     {
         string joinedString = "";
@@ -90,6 +91,14 @@ static void Exercise5()
 //## 6. Egen version av String.Join();
 static void Exercise6()
 {
+    //Skriv en egen funktion som fungerar på samma sätt som String.Join();
+
+    //**Exempel:**
+    //```
+    //MyJoin("->", "Sverige", "Norge", "Finland");
+    //```
+    //*Returvärde:*"Sverige->Norge->Finland"
+    
     static string MyJoin(string joiner, params string[] inputs)
     {
         string joinedString = "";
@@ -103,18 +112,11 @@ static void Exercise6()
     Console.WriteLine(MyJoin("->", "Kristoffer", "Martin", "Irene", "Joakim", "Bengt-Åke"));
     Console.WriteLine(MyJoin(" <-> ", "Jag", "kanske", "kan", "skriva", "koden", "lite", "enklare"));
 }
-//Skriv en egen funktion som fungerar på samma sätt som String.Join();
-
-//**Exempel:**
-//```
-//MyJoin("->", "Sverige", "Norge", "Finland");
-//```
-//*Returvärde:*"Sverige->Norge->Finland"
 
 //## 7. Beräkna medelvärde av int-array
-//Skriv en funktion som tar en int[] in, och returnerar medelvärdet som en double.
 static void Exercise7()
 {
+    //Skriv en funktion som tar en int[] in, och returnerar medelvärdet som en double.
     static double Average(int[] values)
     {
         double sum = 0;
@@ -128,14 +130,14 @@ static void Exercise7()
 }
 
 //## 8. Siffror till text
-//Skriv en funktion som tar ett heltal in, och returnerar en string[] där varje element innehåller ordet för varje siffra i talet.
-//**Exempel:**
-//```
-//NumberToWords(6543);
-//```
-//*Returvärde:* { "sex", "fem", "fyra", "tre"}
 static void Exercise8()
 {
+    //Skriv en funktion som tar ett heltal in, och returnerar en string[] där varje element innehåller ordet för varje siffra i talet.
+    //**Exempel:**
+    //```
+    //NumberToWords(6543);
+    //```
+    //*Returvärde:* { "sex", "fem", "fyra", "tre"}
     static string[] NumberToWords(int numberInt)
     {
         string numberString = numberInt.ToString();
@@ -165,19 +167,21 @@ static void Exercise8()
 }
 
 //## 9. Heltal till text
-//Skriv en funktion som tar en *ushort* som parameter, och returnerar en sträng med numret utskrivet i ord.
-
-// ushort = 0 -> 65535
-
-//**Exempel:**
-//```
-//IntegerToText(6543);
-//```
-//*Returvärde:*"six thousand five hundred forty three"
 static void Exercise9()
 {
-    // https://www.c-sharpcorner.com/blogs/convert-number-to-words-in-c-sharp
-    static string Convert(ushort i)
+//  Skriv en funktion som tar en *ushort* som parameter, och returnerar en sträng med numret utskrivet i ord.
+
+//  ushort = 0 -> 65535
+
+//  **Exempel:**
+//  ```
+//  IntegerToText(6543);
+//  ```
+//  *Returvärde:*"six thousand five hundred forty three"
+
+//  https://www.c-sharpcorner.com/blogs/convert-number-to-words-in-c-sharp
+//  Copy paste most from this.
+    static string NumberToWords(ushort i) // Takes a number between 0 - 65535
     {
         String[] units = { "Zero", "One", "Two", "Three",
             "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven",
@@ -193,53 +197,142 @@ static void Exercise9()
         }
         if (i < 100)
         {
-            return tens[i / 10] + ((i % 10 > 0) ? " " + Convert((ushort)(i % 10)) : "");
+            return tens[i / 10] + ((i % 10 > 0) ? " " + NumberToWords((ushort)(i % 10)) : "");
         }
         if (i < 1000)
         {
             return units[i / 100] + " Hundred"
-                    + ((i % 100 > 0) ? " And " + Convert((ushort)(i % 100)) : "");
+                    + ((i % 100 > 0) ? " And " + NumberToWords((ushort)(i % 100)) : "");
         }
-        return Convert((ushort)(i / 1000)) + " Thousand"
-                    + ((i % 1000 > 0) ? " " + Convert((ushort)(i % 1000)) : "");
+        return NumberToWords((ushort)(i / 1000)) + " Thousand"
+                    + ((i % 1000 > 0) ? " " + NumberToWords((ushort)(i % 1000)) : "");
     }
-    Console.WriteLine(Convert((ushort)31235));
-    Console.WriteLine(Convert((ushort)1000));
-    Console.WriteLine(Convert((ushort)503));
+    Console.WriteLine(NumberToWords((ushort)31235));
+    Console.WriteLine(NumberToWords((ushort)1000));
+    Console.WriteLine(NumberToWords((ushort)503));
 }
 
 //## 10. Hitta index för alla förekomster av ett givet tecken.
-//Skapa funktionen int[] IndexesOf(string text, char c) som söker igenom strängen text och returnerar en int[] med index till alla förekomster av *c* i *text*.
+static void Exercise10()
+{
+//  Skapa funktionen int[] IndexesOf(string text, char c) som söker igenom strängen text och returnerar en int[] med index till alla förekomster av *c* i *text*.
 
-//**Exempel:**
-//```
-//IndexesOf("Hello World!", 'o');
-//```
-//*Returvärde:* { 4, 7}
+//  **Exempel:**
+//  ```
+//  IndexesOf("Hello World!", 'o');
+//  ```
+//  *Returvärde:* { 4, 7}
+    static int[] IndexesOf(string input, char c)
+    {
+        string result = string.Empty;
+        for (int i = 0; i < input.Length; i++)
+        {
+            int nextIndex = input.Substring(i).IndexOf(c);
+            // i=0 -> Substring(i) -> "Hello World!" indexOf(c) -> 4
+            // i += nextIndex ...
+            // i=5 -> Substring(i) -> " World!" indexOf(c) -> 2 + i = 7
+            // i += nextIndex ...
+            // i=8 -> Substring(i) -> "rld!" indexOf(c) -> -1 breal;
+            if (nextIndex < 0) break;
+            else i += nextIndex;
+            result += i;
+        }
+        int[] resArray = new int[result.Length];
+        for (int i = 0; i < resArray.Length; i++)
+        {
+            resArray[i] = Int32.Parse(result[i].ToString());
+        }
+        return resArray;
+    }
+
+    PrintIntArray(IndexesOf("Hello World!", 'o'));
+    PrintIntArray(IndexesOf("Hello World!", 'l'));
+}
 
 
+//  ## 11. Kasta tärning
+static void Exercise11()
+{
+//  Skriv en funktion ThrowDice() som returnerar ett slumpmässigt heltal 1-6.
+//  Skriv en annan funktion ThrowMultipleDice(int n) som returnerar resultatet av att man slagit *n* tärningar.
+//  ***Extra utmaning:****Lägg till en frivillig(optional) int på båda funktionerna, där man kan ange antal sidor på tärningen (default 6).*
+//  ***Tips:***Kolla exempelkoden för[Random.Next()](https://learn.microsoft.com/en-us/dotnet/api/system.random.next?view=net-8.0) för att få ut slumpmässiga heltal. 
+    static int[] ThrowMultipleDice(int amount, int sides = 6)
+    {
+        if (sides <= 1) sides = 2; // We don't want a result that is less than a coin flip.
+        int[] result = new int[amount];
 
-//## 11. Kasta tärning
-//Skriv en funktion ThrowDice() som returnerar ett slumpmässigt heltal 1-6. Skriv en annan funktion ThrowMultipleDice(int n) som returnerar resultatet av att man slagit *n* tärningar.
+        for (int i = 0; i < amount; i++)
+        {
+            result[i] = new Random().Next(1, (sides + 1));
+        }
+        return result;
+    }
 
-//***Extra utmaning:****Lägg till en frivillig(optional) int på båda funktionerna, där man kan ange antal sidor på tärningen (default 6).*
-
-//***Tips:***Kolla exempelkoden för[Random.Next()](https://learn.microsoft.com/en-us/dotnet/api/system.random.next?view=net-8.0) för att få ut slumpmässiga heltal. 
+    for (int i = 0; i < 10; i++)
+    {
+        PrintIntArray(ThrowMultipleDice(5));
+    }
+}
 
 //## 12. Rita en box
-//Skriv en funktion *DrawBox(int width, int height)*.
-//När man anropar funktionen ska den skriva ut en rektangel där de yttre tecknen består av ‘#’ och de inre av ‘-’.
+static void Exercise12()
+{
+    //Skriv en funktion *DrawBox(int width, int height)*.
+    //När man anropar funktionen ska den skriva ut en rektangel där de yttre tecknen består av ‘#’ och de inre av ‘-’.
 
-//**Exempel:**DrawBox(7, 4);
-//```
-//#######
-//#-----#
-//#-----#
-//#######
-//```
+    //**Exempel:**DrawBox(7, 4);
+    //```
+    //#######
+    //#-----#
+    //#-----#
+    //#######
+    //```
+    static void DrawBox(int width, int height)
+    {
+        for (int i = 1; i <= height; i++)
+        {
+            for (int j = 1; j <= width; j++)
+            {
+                if (i == 1 || i == height ||
+                    j == 1 || j == width) Console.Write('#');
+                else Console.Write('-');
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine();
+    }
+    DrawBox(5, 10);
+    DrawBox(7, 7);
+}
 
 //***Extrauppgift:****Uppdatera funktionen och lägg till parametrar left och top
 //(för positionen på översta vänstra hörnet av boxen. Skriv en loop som printar ut rektanglar med random storlek och position på skärmen.* 
+static void Exercise12extra()
+{
+    int origWidth = Console.WindowWidth;
+    int origHeight = Console.WindowHeight;
+
+    //int origRow = Console.CursorTop;
+    //int origCol = Console.CursorLeft;
+    //Console.WriteLine($"{origRow} {origCol}");
+    try
+    {
+        Console.SetCursorPosition(5, 5);
+        Console.Write("X");
+    }
+    catch (ArgumentOutOfRangeException e)
+    {
+        Console.Clear();
+        Console.WriteLine(e.Message);
+    }
+    Console.SetCursorPosition(0, origHeight - 5);
+    Console.WriteLine($"{origWidth} x {origHeight}");
+    //Console.SetCursorPosition();
+    // Clear the screen, then save the top and left coordinates.
+    //Console.Clear();
+}
+
 
 //***Tips:****Använd
 //[Console.SetCursorPosition();](https://learn.microsoft.com/en-us/dotnet/api/system.console.setcursorposition?view=net-8.0)
@@ -249,6 +342,16 @@ static void Exercise9()
 
 //***Tips:****Använd[Thread.Sleep(n);](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-8.0)
 //för att lägga in en fördröjning på n millisekunder innan nästa rektangel ritas ut.*
+
+
+
+
+
+
+
+
+
+
 
 //## 13. Flytta runt ett @ med piltangenterna.
 //Låt oss skriva början till ett enkelt spel:
@@ -276,3 +379,9 @@ static void Exercise9()
 
 //***Förslag:****När du fått en första version av spelet att fungera, lägg till flera banor genom att hårdkoda in olika banlayout i olika 2D-arrayer.
 //När man tagit ett visst antal äpplen på en bana så kommer man vidare till nästa.*
+
+static void PrintIntArray(int[] arr)
+{
+    string result = string.Join(", ", arr);
+    Console.WriteLine($"{{{result}}}");
+}
