@@ -1,4 +1,7 @@
-﻿// Uppgifter från https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Variabler.md
+﻿
+// Övningsuppgifter med variabler
+// https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Variabler.md
+
 //Exercise1();
 //Exercise2();
 //Exercise3();

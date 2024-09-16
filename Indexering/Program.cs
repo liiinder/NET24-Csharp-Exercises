@@ -1,4 +1,8 @@
-﻿//Exercise1();
+﻿
+// Övningsuppgifter med indexering av strängar och arrayer
+// https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Indexering.md
+
+//Exercise1();
 //Exercise2();
 //Exercise2extra();
 //Exercise3
@@ -13,10 +17,6 @@
 //Exercise10();
 //Exercise11();
 //Exercise12();
-
-// TODO: Change name on all the functions / methods to PascalCase
-
-//# Övningsuppgifter med indexering av strängar och arrayer
 
 //## 1. En bokstav på varje rad
 static void Exercise1()
@@ -165,8 +165,8 @@ static void Exercise6()
         double result = double.Parse(nummer[0]) / double.Parse(nummer[1]);
         Console.WriteLine($"{nummer[0]} / {nummer[1]} = {result}");
     }
-}
 // Inte det snyggaste men det fungerar iaf ...
+}
 
 //## 7. Omvänd ordning
 static void Exercise7()
@@ -183,12 +183,11 @@ static void Exercise7()
 }
 
 //## 8. Fördröjd utskrift
-//
+static void Exercise8()
+{
 // Skapa ett program som ber användaren att skriva in ett ord. Sedan ett till, och ett till i all evighet.
 // Varje gång man skrivit in ett ord så ska programmet skriva ut det ord man skrev 10 inmatningar tidigare.
 // Men om man inte skrivit in 10 ord än så kan den istället skriva just det: "Du har inte skrivit in 10 ord än."
-static void Exercise8()
-{
     List<string> ordlista = new List<string>();
     Console.WriteLine("Nu ska vi bygga en ordlista! (avsluta med ctrl + c");
     while(true)
@@ -206,7 +205,7 @@ static void Exercise8()
     }
 }
 
-//## 9. Bokstavspyramid  (Samma uppgift som Loopar "11. Sifferpyramid"?
+//## 9. Bokstavspyramid (Samma uppgift som Loopar "11. Sifferpyramid"?
 static void Exercise9()
 {
     string hello = "Hello World";

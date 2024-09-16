@@ -1,4 +1,8 @@
-﻿//Exercise1();
+﻿
+// Övningsuppgifter med funktioner
+// https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Funktioner.md
+
+//Exercise1();
 //Exercise2();
 //Exercise3();
 //Exercise4();
@@ -11,9 +15,6 @@
 //Exercise11();
 //Exercise12();
 Exercise12extra();
-
-//# Övningsuppgifter med funktioner
-
 
 //## 1. Slå ihop för- och efternamn
 static void Exercise1() 
@@ -250,7 +251,7 @@ static void Exercise10()
 }
 
 
-//  ## 11. Kasta tärning
+//## 11. Kasta tärning
 static void Exercise11()
 {
 //  Skriv en funktion ThrowDice() som returnerar ett slumpmässigt heltal 1-6.
@@ -306,10 +307,12 @@ static void Exercise12()
     DrawBox(7, 7);
 }
 
-//***Extrauppgift:****Uppdatera funktionen och lägg till parametrar left och top
-//(för positionen på översta vänstra hörnet av boxen. Skriv en loop som printar ut rektanglar med random storlek och position på skärmen.* 
+//***Extrauppgift:
 static void Exercise12extra()
 {
+//****Uppdatera funktionen och lägg till parametrar left och top
+// (för positionen på översta vänstra hörnet av boxen.
+// Skriv en loop som printar ut rektanglar med random storlek och position på skärmen.* 
     int origWidth = Console.WindowWidth;
     int origHeight = Console.WindowHeight;
 
@@ -331,7 +334,7 @@ static void Exercise12extra()
     //Console.SetCursorPosition();
     // Clear the screen, then save the top and left coordinates.
     //Console.Clear();
-}
+
 
 
 //***Tips:****Använd
@@ -342,28 +345,24 @@ static void Exercise12extra()
 
 //***Tips:****Använd[Thread.Sleep(n);](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-8.0)
 //för att lägga in en fördröjning på n millisekunder innan nästa rektangel ritas ut.*
-
-
-
-
-
-
-
-
-
-
+}
 
 //## 13. Flytta runt ett @ med piltangenterna.
-//Låt oss skriva början till ett enkelt spel:
+static void Exercise13()
+{
+    //Låt oss skriva början till ett enkelt spel:
 
-//Använd DrawBox-funktionen i föregående uppgift för att rita en box på skärmen. Placera sedan ett @ i mitten av boxen. Om man använder piltangenterna ska man kunna flytta runt @. 
-//När den kommer till kanten av boxen så ska den inte kunna gå längre åt det hållet.
+    //Använd DrawBox-funktionen i föregående uppgift för att rita en box på skärmen. Placera sedan ett @ i mitten av boxen. Om man använder piltangenterna ska man kunna flytta runt @. 
+    //När den kommer till kanten av boxen så ska den inte kunna gå längre åt det hållet.
 
-//***Tips:****För att flytta @ behöver du skriva ‘-’ på dess tidigare position och ‘@’ på den nya positionen. Spara bredd och höjd på boxen så du vet när den ska stanna.*
+    //***Tips:****För att flytta @ behöver du skriva ‘-’ på dess tidigare position och ‘@’ på den nya positionen. Spara bredd och höjd på boxen så du vet när den ska stanna.*
 
-//***Tips:****Kolla upp[Console.ReadKey();](https://learn.microsoft.com/en-us/dotnet/api/system.console.readkey?view=net-8.0) och [Console.KeyAvailable;](https://learn.microsoft.com/en-us/dotnet/api/system.console.keyavailable?view=net-8.0)*
+    //***Tips:****Kolla upp[Console.ReadKey();](https://learn.microsoft.com/en-us/dotnet/api/system.console.readkey?view=net-8.0) och [Console.KeyAvailable;](https://learn.microsoft.com/en-us/dotnet/api/system.console.keyavailable?view=net-8.0)*
+}
 
 //## 14. Masken
+static void Exercise14()
+{
 //Skriv om DrawBox() så den istället returnerar en 2D-array av char med tecknen som den tidigare skrev ut på displayen. Man ska också kunna mata in en tredje parameter för antal slumpade ‘#’.
 //Om man anger t.ex 5 så ska 5 stycken extra ‘#’ slumpas ut på random ställen inne i boxen. 
 
@@ -379,6 +378,7 @@ static void Exercise12extra()
 
 //***Förslag:****När du fått en första version av spelet att fungera, lägg till flera banor genom att hårdkoda in olika banlayout i olika 2D-arrayer.
 //När man tagit ett visst antal äpplen på en bana så kommer man vidare till nästa.*
+}
 
 static void PrintIntArray(int[] arr)
 {

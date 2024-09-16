@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Labb1-Övningar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb98a178621be23a68e9468de158f924fba5cb8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e8f6aa4427ca1a5682c9253744decb7a810bedc")]
 [assembly: System.Reflection.AssemblyProductAttribute("Labb1-Övningar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Labb1-Övningar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

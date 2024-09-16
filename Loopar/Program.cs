@@ -1,10 +1,13 @@
-﻿// Övningar - Loopar
+﻿
+// Övningsuppgifter med loopar
+// https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Loopar.md
+
 //Exercise1();
 //Exercise2();
 //Exercise3();
 //Exercise4();
 //Exercise5();
-//Exercise6();5
+//Exercise6();
 //Exercise7();
 //Exercise8();
 //Exercise9();
@@ -13,10 +16,8 @@
 //Exercise12();
 //Exercise13();
 //Exercise14();
-Exercise14ex2();
+//Exercise14ex2();
 //Exercise15();
-
-// TODO: Change name on all the functions / methods to PascalCase
 
 // 1. Skriv talen 20 till 30
 static void Exercise1()
@@ -279,8 +280,6 @@ static void Exercise15()
             Console.WriteLine($"Du förlorade! Datorn valde {options[computer]} och du tog {options[player]}");
         }
     } while (player != -1);
-}
-
 // Logiken jag använde för att lösa uppgift 15. stem, sax, påse
 //
 // en matris för att måla upp alla möjliga utfall. 
@@ -296,3 +295,4 @@ static void Exercise15()
 // || (player == "påse" && "computer" == "sten")
 // || (player == "sten" && "computer" == "sax") "Du vann"
 // else "Du förlorade"
+}

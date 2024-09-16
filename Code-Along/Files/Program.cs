@@ -1,4 +1,8 @@
-﻿string path = string.Empty;
+﻿
+// Läs in metadata från bildfiler (.bmp & .png)
+// https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/MetadataFr%C3%A5nFil.md
+
+string path = string.Empty;
 
 path = Path.Combine("c:", "users", "linder", "source", "repos", "NET24-Csharp-Exercises", "Code-Along", "Files", "rick.bmp");
 FileformatCheck(path);

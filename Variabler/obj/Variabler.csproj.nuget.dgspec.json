@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj": {}
+    "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj": {
+    "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
+        "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
         "projectName": "Variabler",
-        "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
-        "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Variabler\\obj\\",
+        "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
+        "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
+        "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
