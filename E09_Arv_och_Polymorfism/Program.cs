@@ -43,8 +43,10 @@ Console.WriteLine("\n--- Testkod för uppgift 9 - 12 ---------------------------
 Shape[] shapes = new Shape[10];
 for (int i = 0; i < shapes.Length; i++)
 {
-    var consoleColors = Enum.GetValues(typeof(ConsoleColor));
-    var color = (ConsoleColor)consoleColors.GetValue(new Random().Next(consoleColors.Length));
+    // Enum.GetValues skapar en Array med alla färger från ConsoleColor
+    // Sedan används längden på arrayen för att slumpa ett index som castas till en ConsoleColor
+    var colors = Enum.GetValues(typeof(ConsoleColor));
+    var color = (ConsoleColor)new Random().Next(colors.Length);
 
     // Skapar en random double mellan 0.1 - 9.9 med 1 decimal. (0 < sida < 10)
     double measurement = new Random().Next(1, 100) / (double)10;
