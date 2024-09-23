@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Funktioner.csproj",
-      "projectName": "Funktioner",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\Funktioner.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\E04_Funktioner.csproj",
+      "projectName": "E04_Funktioner",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\E04_Funktioner.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
       "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Funktioner\\obj\\",
       "projectStyle": "PackageReference",

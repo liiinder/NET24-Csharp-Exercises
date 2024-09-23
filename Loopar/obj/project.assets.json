@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
-      "projectName": "Loopar",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\Loopar.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\E02_Loopar.csproj",
+      "projectName": "E02_Loopar",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\E02_Loopar.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
       "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Loopar\\obj\\",
       "projectStyle": "PackageReference",

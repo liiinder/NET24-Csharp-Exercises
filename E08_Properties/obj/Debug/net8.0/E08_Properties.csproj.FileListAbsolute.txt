@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\bin\Debug\net8.0\E08_Properties.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\bin\Debug\net8.0\E08_Properties.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\bin\Debug\net8.0\E08_Properties.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\bin\Debug\net8.0\E08_Properties.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\bin\Debug\net8.0\E08_Properties.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\refint\E08_Properties.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\E08_Properties.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E08_Properties\obj\Debug\net8.0\ref\E08_Properties.dll

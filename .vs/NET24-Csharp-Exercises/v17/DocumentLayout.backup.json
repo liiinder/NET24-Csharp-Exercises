@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\",
+  "WorkspaceRootPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46B57CD4-3E06-4DCA-AB35-FA3F1834F643}|Funktioner\\Funktioner.csproj|solutionrelative:funktioner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40CFC0F9-E49B-45C5-B0AB-C6B927E8F188}|E08_Properties\\E08_Properties.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\e08_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CFC0F9-E49B-45C5-B0AB-C6B927E8F188}|E08_Properties\\E08_Properties.csproj|solutionrelative:e08_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{818B439E-97A0-44C6-8CBF-3D0124386E75}|Labb1-\u00D6vningar\\Labb1-\u00D6vningar.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\labb1-\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{818B439E-97A0-44C6-8CBF-3D0124386E75}|Labb1-\u00D6vningar\\Labb1-\u00D6vningar.csproj|solutionrelative:labb1-\u00F6vningar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF842337-94B5-4FA7-8182-21107EC709B2}|E09_Arv_Uppgifter\\E09_Arv_Uppgifter.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\e09_arv_uppgifter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF842337-94B5-4FA7-8182-21107EC709B2}|E09_Arv_Uppgifter\\E09_Arv_Uppgifter.csproj|solutionrelative:e09_arv_uppgifter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7D91B36-FA6D-4DDA-AA58-34DF9533F44B}|ProjectEuler\\ProjectEuler.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\projecteuler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7D91B36-FA6D-4DDA-AA58-34DF9533F44B}|ProjectEuler\\ProjectEuler.csproj|solutionrelative:projecteuler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0236CBFD-64BF-422D-91D8-D8D3F5653DB8}|Code-Along\\Files\\Files.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\code-along\\files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0236CBFD-64BF-422D-91D8-D8D3F5653DB8}|Code-Along\\Files\\Files.csproj|solutionrelative:code-along\\files\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{505960AE-DC5D-4DFE-A18D-4476D5DFE2DA}|Variabler\\Variabler.csproj|solutionrelative:variabler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC83534B-9562-41CA-9CD3-25B2CAC38CD5}|Indexering\\Indexering.csproj|solutionrelative:indexering\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|c:\\users\\linder\\source\\repos\\net24-csharp-exercises\\loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7B7AB84-D0E9-4DF8-95C9-BE4FB78ED516}|Loopar\\Loopar.csproj|solutionrelative:loopar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EB3351-66BA-4317-852E-94CC4E18ED9D}|CodeAlong\\CodeAlong.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\codealong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB3351-66BA-4317-852E-94CC4E18ED9D}|CodeAlong\\CodeAlong.csproj|solutionrelative:codealong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,29 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
-              "RelativeDocumentMoniker": "Funktioner\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Funktioner\\Program.cs",
-              "RelativeToolTip": "Funktioner\\Program.cs",
-              "ViewState": "AgIAACwBAAAAAAAAAAAswEgBAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T12:05:54.765Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -68,81 +38,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Code-Along\\Files\\Program.cs",
-              "RelativeDocumentMoniker": "Code-Along\\Files\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Code-Along\\Files\\Program.cs",
-              "RelativeToolTip": "Code-Along\\Files\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAEAAAABOAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E09_Arv_Uppgifter\\Program.cs",
+              "RelativeDocumentMoniker": "E09_Arv_Uppgifter\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E09_Arv_Uppgifter\\Program.cs",
+              "RelativeToolTip": "E09_Arv_Uppgifter\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T07:29:41.66Z",
+              "WhenOpened": "2024-09-23T13:03:41.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E08_Properties\\Program.cs",
+              "RelativeDocumentMoniker": "E08_Properties\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E08_Properties\\Program.cs",
+              "RelativeToolTip": "E08_Properties\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:28:07.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\ProjectEuler\\Program.cs",
-              "RelativeDocumentMoniker": "ProjectEuler\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\ProjectEuler\\Program.cs",
-              "RelativeToolTip": "ProjectEuler\\Program.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\CodeAlong\\Program.cs",
+              "RelativeDocumentMoniker": "CodeAlong\\Program.cs",
+              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\CodeAlong\\Program.cs",
+              "RelativeToolTip": "CodeAlong\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:31:46.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Labb1-\u00D6vningar\\Program.cs",
-              "RelativeDocumentMoniker": "Labb1-\u00D6vningar\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Labb1-\u00D6vningar\\Program.cs",
-              "RelativeToolTip": "Labb1-\u00D6vningar\\Program.cs",
-              "ViewState": "AgIAAEQBAAAAAAAAAAAqwHABAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T15:30:07.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
-              "RelativeDocumentMoniker": "Loopar\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Loopar\\Program.cs",
-              "RelativeToolTip": "Loopar\\Program.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAiwAAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:52:12.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
-              "RelativeDocumentMoniker": "Indexering\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Indexering\\Program.cs",
-              "RelativeToolTip": "Indexering\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:51:20.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
-              "RelativeDocumentMoniker": "Variabler\\Program.cs",
-              "ToolTip": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Variabler\\Program.cs",
-              "RelativeToolTip": "Variabler\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T21:52:15.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T12:30:02.33Z"
             }
           ]
         }

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Code-Along\\Files\\Files.csproj",
-      "projectName": "Files",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Code-Along\\Files\\Files.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Code-Along\\Files\\E06_Metadata.csproj",
+      "projectName": "E06_Metadata",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Code-Along\\Files\\E06_Metadata.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
       "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Code-Along\\Files\\obj\\",
       "projectStyle": "PackageReference",

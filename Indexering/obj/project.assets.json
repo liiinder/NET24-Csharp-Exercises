@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Indexering.csproj",
-      "projectName": "Indexering",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\Indexering.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\E03_Indexering.csproj",
+      "projectName": "E03_Indexering",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\E03_Indexering.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
       "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Indexering\\obj\\",
       "projectStyle": "PackageReference",

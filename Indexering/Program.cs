@@ -5,7 +5,7 @@
 //Exercise1();
 //Exercise2();
 //Exercise2extra();
-//Exercise3
+//Exercise3();
 //Exercise4();
 //Exercise4extra();
 //Exercise5();

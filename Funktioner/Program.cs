@@ -1,4 +1,10 @@
 ﻿
+using System.Globalization;
+
+string hello = "Hello World!";
+
+
+
 // Övningsuppgifter med funktioner
 // https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Funktioner.md
 
@@ -14,7 +20,8 @@
 //Exercise10();
 //Exercise11();
 //Exercise12();
-Exercise12extra();
+//Exercise12extra();
+//Exercise13();
 
 //## 1. Slå ihop för- och efternamn
 static void Exercise1() 
@@ -250,7 +257,6 @@ static void Exercise10()
     PrintIntArray(IndexesOf("Hello World!", 'l'));
 }
 
-
 //## 11. Kasta tärning
 static void Exercise11()
 {
@@ -289,75 +295,200 @@ static void Exercise12()
     //#-----#
     //#######
     //```
-    static void DrawBox(int width, int height)
-    {
-        for (int i = 1; i <= height; i++)
-        {
-            for (int j = 1; j <= width; j++)
-            {
-                if (i == 1 || i == height ||
-                    j == 1 || j == width) Console.Write('#');
-                else Console.Write('-');
-            }
-            Console.WriteLine();
-        }
-        Console.WriteLine();
-    }
     DrawBox(5, 10);
     DrawBox(7, 7);
 }
 
-//***Extrauppgift:
+static void DrawBox(int width, int height)
+{
+    for (int i = 1; i <= height; i++)
+    {
+        for (int j = 1; j <= width; j++)
+        {
+            if (i == 1 || i == height || j == 1 || j == width) Console.Write('#');
+            else Console.Write('-');
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
+
 static void Exercise12extra()
 {
-//****Uppdatera funktionen och lägg till parametrar left och top
-// (för positionen på översta vänstra hörnet av boxen.
-// Skriv en loop som printar ut rektanglar med random storlek och position på skärmen.* 
-    int origWidth = Console.WindowWidth;
-    int origHeight = Console.WindowHeight;
+//  ***Extrauppgift:
+//  ****Uppdatera funktionen och lägg till parametrar left och top
+//  (för positionen på översta vänstra hörnet av boxen.
+//  Skriv en loop som printar ut rektanglar med random storlek och position på skärmen.*
 
-    //int origRow = Console.CursorTop;
-    //int origCol = Console.CursorLeft;
-    //Console.WriteLine($"{origRow} {origCol}");
-    try
+//  ***Tips:****Använd
+//  [Console.SetCursorPosition();](https://learn.microsoft.com/en-us/dotnet/api/system.console.setcursorposition?view=net-8.0)
+//  för att flytta Cursorn,
+//  d.v.s var nästa tecken ska skrivas. Om du vill kan du även dölja cursorn genom att sätta
+//  [Console.CursorVisible = false;](https://learn.microsoft.com/en-us/dotnet/api/system.console.cursorvisible?view=net-8.0)*
+
+//  ***Tips:****Använd[Thread.Sleep(n);](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-8.0)
+//  för att lägga in en fördröjning på n millisekunder innan nästa rektangel ritas ut.*
+    Console.CursorVisible = false;
+    while (!Console.KeyAvailable)
     {
-        Console.SetCursorPosition(5, 5);
-        Console.Write("X");
+        SetRandomConsoleColor();
+        DrawRandomSizeBox(3, 15);
+        Thread.Sleep(50);
     }
-    catch (ArgumentOutOfRangeException e)
+    Console.CursorVisible = true;
+    Console.ResetColor();
+}
+
+static void DrawBoxAtPlace(int width, int height, int left, int top)
+{
+    int origWidth = Console.WindowWidth - 1;
+    int origHeight = Console.WindowHeight - 1;
+    int startIndexJ = 1;
+
+    for (int i = 1; i <= height; i++)
     {
-        Console.Clear();
-        Console.WriteLine(e.Message);
+        if (top < 0)
+        {
+            i += Math.Abs(top) - 1;
+            top = 0;
+        }
+        if (left < 0)
+        {
+            startIndexJ += Math.Abs(left);
+            left = 0;
+        }
+        Console.SetCursorPosition(left, top);
+        for (int j = startIndexJ; j <= width; j++)
+        {
+            if (i == 1 || i == height ||
+                j == 1 || j == width) Console.Write('#');
+            else Console.Write('-');
+            if (Console.GetCursorPosition().Left == origWidth) break;
+        }
+        if (top == origHeight) break;
+        top++;
     }
-    Console.SetCursorPosition(0, origHeight - 5);
-    Console.WriteLine($"{origWidth} x {origHeight}");
-    //Console.SetCursorPosition();
-    // Clear the screen, then save the top and left coordinates.
-    //Console.Clear();
+static void DrawBoxAtPlace(int width, int height, int left, int top)
+{
+    int origWidth = Console.WindowWidth - 1;
+    int origHeight = Console.WindowHeight - 1;
+    int startIndexJ = 1;
 
+    for (int i = 1; i <= height; i++)
+    {
+        if (top < 0)
+        {
+            i += Math.Abs(top) - 1;
+            top = 0;
+        }
+        if (left < 0)
+        {
+            startIndexJ += Math.Abs(left);
+            left = 0;
+        }
+        Console.SetCursorPosition(left, top);
+        for (int j = startIndexJ; j <= width; j++)
+        {
+            if (i == 1 || i == height ||
+                j == 1 || j == width) Console.Write('#');
+            else Console.Write('-');
+            if (Console.GetCursorPosition().Left == origWidth) break;
+        }
+        if (top == origHeight) break;
+        top++;
+    }
+}
+}
 
+static void DrawColoredBoxAtPlace(int width, int height, int left, int top, ConsoleColor frame, ConsoleColor inside)
+{
+    int origWidth = Console.WindowWidth - 1;
+    int origHeight = Console.WindowHeight - 1;
+    int startIndexJ = 1;
 
-//***Tips:****Använd
-//[Console.SetCursorPosition();](https://learn.microsoft.com/en-us/dotnet/api/system.console.setcursorposition?view=net-8.0)
-//för att flytta Cursorn,
-//d.v.s var nästa tecken ska skrivas. Om du vill kan du även dölja cursorn genom att sätta
-//[Console.CursorVisible = false;](https://learn.microsoft.com/en-us/dotnet/api/system.console.cursorvisible?view=net-8.0)*
+    for (int i = 1; i <= height; i++)
+    {
+        if (i == 1 || i == height)
+        {
+            Console.ForegroundColor = frame;
+            Console.BackgroundColor = frame;
+        }
+        if (top < 0)
+        {
+            i += Math.Abs(top) - 1;
+            top = 0;
+        }
+        if (left < 0)
+        {
+            startIndexJ += Math.Abs(left);
+            left = 0;
+        }
+        Console.SetCursorPosition(left, top);
+        for (int j = startIndexJ; j <= width; j++)
+        {
+            if (i == 1 || i == height);
+            else if (j == 1 || j == width)
+            {
+                Console.ForegroundColor = frame;
+                Console.BackgroundColor = frame;
+            }
+            else if (j == 2 )
+            {
+                Console.ForegroundColor = inside;
+                Console.BackgroundColor = inside;
+            }
 
-//***Tips:****Använd[Thread.Sleep(n);](https://learn.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-8.0)
-//för att lägga in en fördröjning på n millisekunder innan nästa rektangel ritas ut.*
+            if (i == 1 || i == height ||
+                j == 1 || j == width) Console.Write('#');
+            else Console.Write('-');
+            if (Console.GetCursorPosition().Left == origWidth) break;
+        }
+        if (top == origHeight) break;
+        top++;
+    }
+    ResetColor();
+}
+
+static void DrawRandomSizeBox(int min, int max)
+{
+    int width = new Random().Next(min, max + 1);
+    int height = new Random().Next(min, max + 1);
+    int left = new Random().Next(-(width / 2), Console.WindowWidth - (width / 2));
+    int top = new Random().Next(-height / 2, Console.WindowHeight - (height / 2));
+    DrawBoxAtPlace(width, height, left, top);
+}
+
+static void SetRandomConsoleColor()
+{
+    var consoleColors = Enum.GetValues(typeof(ConsoleColor));
+    var color = (ConsoleColor)consoleColors.GetValue(new Random().Next(consoleColors.Length));
+    Console.BackgroundColor = color;
+    Console.ForegroundColor = color;
 }
 
 //## 13. Flytta runt ett @ med piltangenterna.
 static void Exercise13()
 {
-    //Låt oss skriva början till ett enkelt spel:
+    ResetColor();
+    Console.Clear();
+    //  Låt oss skriva början till ett enkelt spel:
+    int width = Console.WindowWidth - 2;
+    int height = Console.WindowHeight - 2;
+    int left = 1;
+    int top = 1;
+    ConsoleColor inside = ConsoleColor.Gray;
+    ConsoleColor frame = ConsoleColor.Magenta;
+    DrawColoredBoxAtPlace(width, height, left, top, frame, inside);
+//  Använd DrawBox-funktionen i föregående uppgift för att rita en box på skärmen.
+//  Placera sedan ett @ i mitten av boxen. Om man använder piltangenterna ska man kunna flytta runt @.
+//  När den kommer till kanten av boxen så ska den inte kunna gå längre åt det hållet.
 
-    //Använd DrawBox-funktionen i föregående uppgift för att rita en box på skärmen. Placera sedan ett @ i mitten av boxen. Om man använder piltangenterna ska man kunna flytta runt @. 
-    //När den kommer till kanten av boxen så ska den inte kunna gå längre åt det hållet.
+//  ***Tips:****För att flytta @ behöver du skriva ‘-’ på dess tidigare position och ‘@’ på den nya positionen.
+//  Spara bredd och höjd på boxen så du vet när den ska stanna.*
 
-    //***Tips:****För att flytta @ behöver du skriva ‘-’ på dess tidigare position och ‘@’ på den nya positionen. Spara bredd och höjd på boxen så du vet när den ska stanna.*
+//  ***Tips:****Kolla upp[Console.ReadKey();](https://learn.microsoft.com/en-us/dotnet/api/system.console.readkey?view=net-8.0)
+//  och [Console.KeyAvailable;](https://learn.microsoft.com/en-us/dotnet/api/system.console.keyavailable?view=net-8.0)*
 
-    //***Tips:****Kolla upp[Console.ReadKey();](https://learn.microsoft.com/en-us/dotnet/api/system.console.readkey?view=net-8.0) och [Console.KeyAvailable;](https://learn.microsoft.com/en-us/dotnet/api/system.console.keyavailable?view=net-8.0)*
 }
 
 //## 14. Masken
@@ -384,4 +515,10 @@ static void PrintIntArray(int[] arr)
 {
     string result = string.Join(", ", arr);
     Console.WriteLine($"{{{result}}}");
+}
+
+static void ResetColor()
+{
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.BackgroundColor = ConsoleColor.Black;
 }

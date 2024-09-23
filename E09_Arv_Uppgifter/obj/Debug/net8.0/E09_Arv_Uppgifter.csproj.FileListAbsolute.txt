@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\bin\Debug\net8.0\E09_Arv_Uppgifter.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\bin\Debug\net8.0\E09_Arv_Uppgifter.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\bin\Debug\net8.0\E09_Arv_Uppgifter.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\bin\Debug\net8.0\E09_Arv_Uppgifter.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\bin\Debug\net8.0\E09_Arv_Uppgifter.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\refint\E09_Arv_Uppgifter.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\E09_Arv_Uppgifter.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\E09_Arv_Uppgifter\obj\Debug\net8.0\ref\E09_Arv_Uppgifter.dll

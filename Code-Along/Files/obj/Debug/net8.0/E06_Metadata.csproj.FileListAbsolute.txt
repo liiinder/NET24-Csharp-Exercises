@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\bin\Debug\net8.0\E06_Metadata.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\bin\Debug\net8.0\E06_Metadata.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\bin\Debug\net8.0\E06_Metadata.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\bin\Debug\net8.0\E06_Metadata.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\bin\Debug\net8.0\E06_Metadata.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\refint\E06_Metadata.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\E06_Metadata.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\Code-Along\Files\obj\Debug\net8.0\ref\E06_Metadata.dll

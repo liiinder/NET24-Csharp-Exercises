@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\bin\Debug\net8.0\E07_BasicOOP.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\bin\Debug\net8.0\E07_BasicOOP.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\bin\Debug\net8.0\E07_BasicOOP.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\bin\Debug\net8.0\E07_BasicOOP.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\bin\Debug\net8.0\E07_BasicOOP.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\refint\E07_BasicOOP.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\E07_BasicOOP.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\BasicOOP\obj\Debug\net8.0\ref\E07_BasicOOP.dll

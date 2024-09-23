@@ -1,0 +1,15 @@
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\bin\Debug\net8.0\CodeAlong.exe
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\bin\Debug\net8.0\CodeAlong.deps.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\bin\Debug\net8.0\CodeAlong.runtimeconfig.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\bin\Debug\net8.0\CodeAlong.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\bin\Debug\net8.0\CodeAlong.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.AssemblyInfoInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.AssemblyInfo.cs
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.csproj.CoreCompileInputs.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.sourcelink.json
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\refint\CodeAlong.dll
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.pdb
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\CodeAlong.genruntimeconfig.cache
+C:\Programmering\.net-utvecklare\NET24-Csharp-Exercises\CodeAlong\obj\Debug\net8.0\ref\CodeAlong.dll

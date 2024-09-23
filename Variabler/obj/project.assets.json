@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
-      "projectName": "Variabler",
-      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\Variabler.csproj",
+      "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\E01_Variabler.csproj",
+      "projectName": "E01_Variabler",
+      "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\E01_Variabler.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
       "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\Variabler\\obj\\",
       "projectStyle": "PackageReference",
