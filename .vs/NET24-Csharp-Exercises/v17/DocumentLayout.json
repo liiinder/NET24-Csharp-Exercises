@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{AF842337-94B5-4FA7-8182-21107EC709B2}|E09_Arv_Uppgifter\\E09_Arv_Uppgifter.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\e09_arv_uppgifter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AF842337-94B5-4FA7-8182-21107EC709B2}|E09_Arv_Uppgifter\\E09_Arv_Uppgifter.csproj|solutionrelative:e09_arv_uppgifter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40CFC0F9-E49B-45C5-B0AB-C6B927E8F188}|E08_Properties\\E08_Properties.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\e08_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40CFC0F9-E49B-45C5-B0AB-C6B927E8F188}|E08_Properties\\E08_Properties.csproj|solutionrelative:e08_properties\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EB3351-66BA-4317-852E-94CC4E18ED9D}|CodeAlong\\CodeAlong.csproj|c:\\programmering\\.net-utvecklare\\net24-csharp-exercises\\codealong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EB3351-66BA-4317-852E-94CC4E18ED9D}|CodeAlong\\CodeAlong.csproj|solutionrelative:codealong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,44 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E09_Arv_Uppgifter\\Program.cs",
-              "RelativeDocumentMoniker": "E09_Arv_Uppgifter\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E09_Arv_Uppgifter\\Program.cs",
-              "RelativeToolTip": "E09_Arv_Uppgifter\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T13:03:41.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E08_Properties\\Program.cs",
-              "RelativeDocumentMoniker": "E08_Properties\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E08_Properties\\Program.cs",
-              "RelativeToolTip": "E08_Properties\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T13:28:07.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\CodeAlong\\Program.cs",
-              "RelativeDocumentMoniker": "CodeAlong\\Program.cs",
-              "ToolTip": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\CodeAlong\\Program.cs",
-              "RelativeToolTip": "CodeAlong\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T12:30:02.33Z"
             }
           ]
         }
