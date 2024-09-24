@@ -2,8 +2,8 @@
 // Övningsuppgifter med properties
 // https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Properties.md
 
-// För att köra testkoden, ta bara bort första två tecknen /* i Console.WriteLine (på rad 9, 19, 32, 42, 57, 71, 91).
-// Ligger enbart som multirad kommentar för att kunna dölja koden i ett stycke och snabbt kunna kommentera ut och in på ett ställe.
+// För att köra testkoden, ta bara bort första två tecknen /* framför Console.WriteLine raderna med "Testkod för..."
+// Slutkommentaren är redan utkommenterad så den behöver inte ändras/tas bort :)
 
 // ----------------------------------------------------------------------------------------------------
 /*Console.WriteLine("\n--- Testkod för uppgift 1 - 3 -----------------------------------------------\n");
@@ -59,6 +59,7 @@ glas.Empty();
 
 BlueRed test = new BlueRed();
 
+Console.WriteLine("\nObjektet är instansierat och har värdena");
 Console.WriteLine($"Blå: {test.Blue} - Röd: {test.Red}");
 Console.WriteLine("\nÄndrar blå till 20");
 test.Blue = 20;
@@ -66,6 +67,10 @@ Console.WriteLine($"Blå: {test.Blue} - Röd: {test.Red}");
 Console.WriteLine("\nÄndrar röd till 3.75");
 test.Red = 3.75;
 Console.WriteLine($"Blå: {test.Blue} - Röd: {test.Red}");
+Console.WriteLine("\nFörsöker ändra röd till -20");
+test.Red = -20;
+Console.WriteLine($"Blå: {test.Blue} - Röd: {test.Red}");
+
 //*/
 // ----------------------------------------------------------------------------------------------------
 /*Console.WriteLine("\n--- Testkod för uppgift 8 - 9 -----------------------------------------------\n");
@@ -239,36 +244,25 @@ class Glass
     }
 }
 class BlueRed
-{ 
-// Kod innan Fredrik nämnde att man bara behövde ha ett fält...   
-    //private double _blue = 50;
-    //private double _red = 50;
-    //public double Red
-    //{
-    //    get => _red;
-    //    set
-    //    {
-    //        _red = value;
-    //        _blue = 100 - value;
-    //    }
-    //}
-    //public double Blue
-    //{
-    //    get => _blue;
-    //    set
-    //    {
-    //        _blue = value;
-    //        _red = 100 - value;
-    //    }
-    //}
-
-// Kod efter man tänkt efter vad som faktiskt behövs.
+{
+    private double _blue = 50;
     public double Red
     {
         get => 100 - Blue;
-        set => Blue = 100 - value;
+        set
+        { 
+            if (0 <= value && value <= 100) Blue = 100 - value;
+        } 
+        
     }
-    public double Blue { get; set; }
+    public double Blue
+    {
+        get => _blue;
+        set 
+        {
+            if (0 <= value && value <= 100) _blue = value;
+        } 
+    }
 }
 class Car2
 {

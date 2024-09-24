@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("E09_Arv_och_Polymorfism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17caf653952a77d73fd5d673928921be1a571520")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c28c434d6f246773f62ce4b26dde9fe1286e45e")]
 [assembly: System.Reflection.AssemblyProductAttribute("E09_Arv_och_Polymorfism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("E09_Arv_och_Polymorfism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
