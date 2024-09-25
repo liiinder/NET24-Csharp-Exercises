@@ -174,21 +174,9 @@ class Person
 class Pedometer
 {
     private int _steps;
-    public int Steps
-    {
-        get
-        {
-            return _steps;
-        }
-    }
-    public void Step()
-    {
-        _steps++;
-    }
-    public void Reset()
-    {
-        _steps = 0;
-    }
+    public int Steps { get => _steps; }
+    public void Step() => _steps++;
+    public void Reset() => _steps = 0;
 }
 class Car
 {

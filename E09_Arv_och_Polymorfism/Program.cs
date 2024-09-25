@@ -88,28 +88,42 @@ class Vehicle
     public Size Dimentions { get; set; }
     public Vehicle()
     {
-        double length = new Random().Next(250, 700) / (double)100; // Decimaltal mellan 2.50 - 6.99
-        double width = new Random().Next(140, 230) / (double)100;
-        double height = new Random().Next(80, 350) / (double)100;
+        // Decimaltal mellan 2.5 - 7m (random double * range + offset)
+        double length = new Random().NextDouble() * 4.5 + 2.5;
+        double width = new Random().NextDouble() * 0.9 + 1.4;
+        double height = new Random().NextDouble() * 2.7 + 0.8;
         this.Dimentions = new Size(length, width, height);
         this.Brand = Brand.Audi;
         this.Color = Color.Blue;
     }
     public Vehicle(Brand brand) : this() => this.Brand = brand;
     public Vehicle(Brand brand, Color color) : this(brand) => this.Color = color;
+
+    //  Funkar att köra konstrukts i omvänd ordning också.
+    //  --------------------------------------------------
+    //  public Vehicle() : this(Brand.Audi, Color.Blue) {}
+    //  public Vehicle(Brand brand) : this(brand, Color.Blue) {}
+    //  public Vehicle(Brand brand, Color color)
+    //  {
+    //      all logik här...
+    //  }
+
     public override string ToString() => $"A {Color} {Brand}";
 }
 class Car : Vehicle
 {
     public string Model { get; set; }
     public Car(Brand brand, string model, Color color) : base(brand, color) => this.Model = model;
-    public override string ToString() => $"A {Color} {Dimentions.Length} meter long {Model} from {Brand}";
+    public override string ToString()
+    {
+        return $"A {Color.ToString().ToLower()} {Dimentions.Length:f2} meter long {Model} from {Brand}";
+    }
 }
 
 // --- Kod för uppgift 6 - 12 ---
 public abstract class Shape
 {
-    protected ConsoleColor color;
+    protected ConsoleColor color = ConsoleColor.White;
     public abstract double Area { get; }
     public abstract double Circumference { get; }
     public void Print()
@@ -120,11 +134,6 @@ public abstract class Shape
     {
         foreach (Shape shape in shapes)
         {
-// Uppdatera PrintAll() i uppgift 10, så att alla rader med cirklar skrivs med röd färg och alla rader med kvadrater skrivs med grön färg.
-            //if (shape is Circle) Console.ForegroundColor = ConsoleColor.Red;
-            //else if (shape is Square) Console.ForegroundColor = ConsoleColor.Green;
-
-// Uppdatera PrintAll() så att raden skrivs ut i den färg som angavs när vardera shape skapades.
             if (shape.color == ConsoleColor.Black) Console.BackgroundColor = ConsoleColor.DarkGray;
             Console.ForegroundColor = shape.color;
 
