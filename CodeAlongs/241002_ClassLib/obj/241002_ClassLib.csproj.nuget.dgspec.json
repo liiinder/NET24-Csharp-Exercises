@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {}
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj",
         "projectName": "241002_ClassLib",
-        "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj",
+        "projectPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj",
         "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\obj\\",
+        "outputPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",

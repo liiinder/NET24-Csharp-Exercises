@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\241002_Extension_Methods.csproj",
+      "projectUniqueName": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\241002_Extension_Methods.csproj",
       "projectName": "241002_Extension_Methods",
-      "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\241002_Extension_Methods.csproj",
+      "projectPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\241002_Extension_Methods.csproj",
       "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\obj\\",
+      "outputPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_Extension_Methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,8 +54,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {
-              "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj"
+            "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj": {
+              "projectPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\241002_ClassLib\\241002_ClassLib.csproj"
             }
           }
         }

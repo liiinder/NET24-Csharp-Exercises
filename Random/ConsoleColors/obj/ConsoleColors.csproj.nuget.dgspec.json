@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj": {}
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj": {
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj",
+        "projectUniqueName": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj",
         "projectName": "ConsoleColors",
-        "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj",
+        "projectPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\ConsoleColors.csproj",
         "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\obj\\",
+        "outputPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\Random\\ConsoleColors\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",

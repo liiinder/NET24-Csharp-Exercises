@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj": {}
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj": {
+    "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj",
+        "projectUniqueName": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj",
         "projectName": "240930_Delegat",
-        "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj",
+        "projectPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\240930_Delegat.csproj",
         "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\obj\\",
+        "outputPath": "C:\\Users\\linder\\source\\repos\\NET24-Csharp-Exercises\\CodeAlongs\\240930_Delegat\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",
