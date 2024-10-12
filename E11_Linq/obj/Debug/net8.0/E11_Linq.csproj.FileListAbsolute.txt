@@ -1,0 +1,15 @@
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\bin\Debug\net8.0\E11_Linq.exe
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\bin\Debug\net8.0\E11_Linq.deps.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\bin\Debug\net8.0\E11_Linq.runtimeconfig.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\bin\Debug\net8.0\E11_Linq.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\bin\Debug\net8.0\E11_Linq.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.AssemblyInfoInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.AssemblyInfo.cs
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.csproj.CoreCompileInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.sourcelink.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\refint\E11_Linq.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\E11_Linq.genruntimeconfig.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E11_Linq\obj\Debug\net8.0\ref\E11_Linq.dll

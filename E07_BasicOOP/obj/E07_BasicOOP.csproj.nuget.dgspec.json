@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj": {}
+    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj": {}
   },
   "projects": {
-    "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj": {
+    "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj",
+        "projectUniqueName": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj",
         "projectName": "E07_BasicOOP",
-        "projectPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj",
-        "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
-        "outputPath": "C:\\Programmering\\.net-utvecklare\\NET24-Csharp-Exercises\\E07_BasicOOP\\obj\\",
+        "projectPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\E07_BasicOOP\\E07_BasicOOP.csproj",
+        "packagesPath": "C:\\Users\\linder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linder\\Source\\Repos\\NET24-Csharp-Exercises\\E07_BasicOOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linder\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,15 @@
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\bin\Debug\net8.0\E10_Delegat.exe
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\bin\Debug\net8.0\E10_Delegat.deps.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\bin\Debug\net8.0\E10_Delegat.runtimeconfig.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\bin\Debug\net8.0\E10_Delegat.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\bin\Debug\net8.0\E10_Delegat.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.AssemblyInfoInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.AssemblyInfo.cs
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.csproj.CoreCompileInputs.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.sourcelink.json
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\refint\E10_Delegat.dll
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.pdb
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\E10_Delegat.genruntimeconfig.cache
+C:\Users\linder\Source\Repos\NET24-Csharp-Exercises\E10_Delegat\obj\Debug\net8.0\ref\E10_Delegat.dll
