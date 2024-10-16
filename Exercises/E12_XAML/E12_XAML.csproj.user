@@ -7,6 +7,56 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Exercises\E08.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E01.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E02.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E03.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E04.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E05.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E06.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Exercises\E07.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Exercises\E08.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E01.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E02.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E03.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E04.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E05.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E06.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Exercises\E07.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

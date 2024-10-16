@@ -1,2 +1,6 @@
 .vs/
 NET24-Csharp-Exercises/.vs
+
+# ignore all bin / obj folders
+bin
+obj
