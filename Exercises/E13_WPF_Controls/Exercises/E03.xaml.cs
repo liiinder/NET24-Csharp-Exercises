@@ -23,6 +23,7 @@ namespace E13_WPF_Controls
         public E03()
         {
             InitializeComponent();
+            display.Content = Counter;
         }
 
         private int counter;

@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:E13_WPF_Controls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
     <Grid>
-        <local:E03 />
+
+        <local:E05 />
+
     </Grid>
+
 </Window>

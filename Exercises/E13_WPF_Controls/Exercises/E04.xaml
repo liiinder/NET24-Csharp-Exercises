@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="E13_WPF_Controls.E04"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:E13_WPF_Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="70" d:DesignWidth="110">
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Canvas>
+            <Label x:Name="currentPosition"
+                   Content="Position"
+                   Background="#83ff"
+                   Padding="30 10"
+                   FontWeight="DemiBold"
+                   FontSize="20"
+                   FontFamily="Consolas"/>
+        </Canvas>
+
+        <Slider x:Name="xPos"
+                Grid.Row="1"
+                VerticalAlignment="Bottom"
+                Margin="10 0 0 10"
+                
+                TickFrequency="10"
+                TickPlacement="Both"  
+                Minimum="0"
+                Maximum="100"
+
+                ValueChanged="xPos_ValueChanged" >
+            
+            <Slider.LayoutTransform>
+                <ScaleTransform ScaleX="2" ScaleY="2.5" />
+            </Slider.LayoutTransform>
+        </Slider>
+
+        <Slider x:Name="yPos"
+                Grid.Column="1"
+                Orientation="Vertical"
+                IsDirectionReversed="True"
+                Margin="0 10 10 0"
+                
+                TickFrequency="10"
+                TickPlacement="Both"
+                Minimum="0"
+                Maximum="100"
+                
+                ValueChanged="yPos_ValueChanged">
+
+            <Slider.LayoutTransform>
+                <ScaleTransform ScaleX="2.5" ScaleY="2" />
+            </Slider.LayoutTransform>
+        </Slider>
+
+    </Grid>
+
+</UserControl>

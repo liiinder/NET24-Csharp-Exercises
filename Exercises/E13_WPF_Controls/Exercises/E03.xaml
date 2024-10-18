@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:E13_WPF_Controls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             FontSize="150" FontWeight="Bold">
+             FontSize="120" FontWeight="Bold">
     <Grid>
 
         <Grid.ColumnDefinitions>
@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
-            <RowDefinition Height="4*" />
+            <RowDefinition Height="2*" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
@@ -26,32 +26,40 @@
                Grid.Column="1" />
 
         <Button Content="+" 
-                Padding="20"
-                Grid.Column="0"
-                Click="Button_Click" 
+                Padding="20 0 20 20"
+                Grid.Column="2"
+                Click="Button_Click"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
                 Margin="50"/>
 
         <Button Content="-" 
-                Padding="20" 
-                Grid.Column="2"
+                Padding="20 0 20 20" 
                 Click="Button_Click" 
                 Margin="50" />
 
-        <Slider x:Name="slider"
-                Grid.Row="1"
-                Grid.ColumnSpan="3" 
+        <StackPanel Grid.Row="1"
+                    Grid.ColumnSpan="3"
+                    Margin="50 0 50 0" >
+            
+            <Viewbox>
+
+                <Slider x:Name="slider"
+
+                        TickFrequency="1"
+                        TickPlacement="BottomRight" 
+                        IsSnapToTickEnabled="True"
                 
-                TickFrequency="1"
-                TickPlacement="BottomRight" 
-                IsSnapToTickEnabled="True"
-                
-                Minimum="0"
-                Maximum="9"
-                
-                Height="150" 
-                ValueChanged="slider_ValueChanged" 
-                
-                Margin="50 10 50 0" />
+                        Minimum="0"
+                        Maximum="9"
+                        
+                        Width="150"
+                                        
+                        ValueChanged="slider_ValueChanged" />
+            </Viewbox>
+
+        </StackPanel>
 
     </Grid>
+    
 </UserControl>
